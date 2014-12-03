@@ -81,7 +81,6 @@ sehr schnell heiß, wenn man Pins aktiv hält und dementsprechend weiter Strom z
 fließen lässt, damit dieser die Spulen läd.
 
 
-== Sonstige Infos
-
+## Sonstige Infos
 
 http://www.sonderzeichen.de/Pfeile-Alphabet.html
