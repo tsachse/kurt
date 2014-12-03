@@ -4,12 +4,12 @@
 
 ### Links
 
-http://www.elektronx.de/tutorials/motorsteuerung-mit-l298-und-raspberry-pi/
-http://www.retas.de/thomas/raspberrypi/pibot-b/
+- http://www.elektronx.de/tutorials/motorsteuerung-mit-l298-und-raspberry-pi/
+- http://www.retas.de/thomas/raspberrypi/pibot-b/
 
 ### L298N Doppelte H-Brücke Schrittmotor-Treiber Steuerungsplatinemodul
 
-http://www.amazon.de/gp/product/B008KYCDTY/ref=as_li_ss_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B008KYCDTY&linkCode=as2&tag=christhimbee-21
+- http://www.amazon.de/gp/product/B008KYCDTY/ref=as_li_ss_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B008KYCDTY&linkCode=as2&tag=christhimbee-21
 
 #### Einfache Ansteuerung von Motoren (Amanzonbewertung)
 
@@ -80,4 +80,4 @@ fließen lässt, damit dieser die Spulen läd.
 
 ## Sonstige Infos
 
-http://www.sonderzeichen.de/Pfeile-Alphabet.html
+- http://www.sonderzeichen.de/Pfeile-Alphabet.html
