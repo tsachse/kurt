@@ -1,7 +1,4 @@
-# kurt
-
-
-Ein Roboterexperiment.
+# Ein Roboterexperiment
 
 ## Motorsteuerung 
 
