@@ -28,14 +28,14 @@ Ist er ausgeschaltet muss 5V von extern an diese Klemme angelegt werden.
 Die Brücke ist in der Auslieferung über Jumper so eingestellt, dass beide Ausgänge 
 Freigegeben sind (Klemmen Rechts- und Links auf dem Board. 
 Legt man an die freien Pins unterhalb der Jumper 5V an laufen die Motoren wie folgt:
-  0,0,0,0 Beide Motoren stehen
-  1,0,0,0 Linker Motor läuft Rechts
-  0,1,0,0 Linker Motor läuft Links
-  1,1,0,0 Beide Motoren stehen
-  0,0,1,0 Rechter Motor läuft Rechts
-  0,0,0,1 Rechter Motor läuft Links
-  0,0,1,1 Beide Motoren stehen
-  1,1,1,1 Beide Motoren stehen
+    0,0,0,0 Beide Motoren stehen
+    1,0,0,0 Linker Motor läuft Rechts
+    0,1,0,0 Linker Motor läuft Links
+    1,1,0,0 Beide Motoren stehen
+    0,0,1,0 Rechter Motor läuft Rechts
+    0,0,0,1 Rechter Motor läuft Links
+    0,0,1,1 Beide Motoren stehen
+    1,1,1,1 Beide Motoren stehen
 
 Jeder Eingang hat eine LED on Board die leuchtet wenn 5V anliegen.
 
@@ -66,10 +66,10 @@ Anschließend lassen sich über den Raspberry Pi ohne Probleme die Pins im
 Fullstept oder Halfstepbetrieb nutzen.
 
 Also:
-  Step 1: 1 0 1 0
-  Step 2: 0 1 1 0
-  Step 3: 0 1 0 1
-  Step 4: 1 0 0 1
+    Step 1: 1 0 1 0
+    Step 2: 0 1 1 0
+    Step 3: 0 1 0 1
+    Step 4: 1 0 0 1
 
 und eben den Halbschrittbetrieb, indem man noch die zwischen Schritte einbaut, 
 die nur aus einem aktiven Out bestehen. Dazu gibt es aber auch gute Videos auf YouTube, 
@@ -81,7 +81,7 @@ sehr schnell heiß, wenn man Pins aktiv hält und dementsprechend weiter Strom z
 fließen lässt, damit dieser die Spulen läd.
 
 
-Sonstige Infos
---------------
+== Sonstige Infos
+
 
 http://www.sonderzeichen.de/Pfeile-Alphabet.html
