@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang=de>
+<head>
+    <meta charset="utf-8">
+    <link href="/css/bootstrap-combined.min.css" rel="stylesheet">
+    <script src="/js/angular.min.js"></script>
+    <script src="/js/angular-resource.min.js"></script>
+    <script src="/rc1/rc1.js"></script>
+</head>
+<body ng-app="rc1" ng-controller="RC1Ctrl">
+  <div class="container-fluid" ng-view>
+    <table>
+      <tbody>
+	<tr>
+	  <td><button type="button" class="btn btn-info" ng-click="cmd('NW')"><h1>&#8662;</h1></button></td>
+	  <td><button type="button" class="btn btn-info" ng-click="cmd('N')"><h1>&#8657;</h1></button></td>
+	  <td><button type="button" class="btn btn-info" ng-click="cmd('NO')"><h1>&#8663;</h1></button></td>
+	</tr>
+	<tr>
+	  <td><button type="button" class="btn btn-info" ng-click="cmd('W')"><h1>&#8656;</h1></button></td>
+	  <td><button type="button" class="btn btn-danger" ng-click="cmd('STOP')"><h1>&#8660; </h1></button></td>
+	  <td><button type="button" class="btn btn-info" ng-click="cmd('O')"><h1>&#8658;</h1></button></td>
+	</tr>
+	<tr>
+	  <td><button type="button" class="btn btn-info" ng-click="cmd('SW')"><h1>&#8665;</h1></button></td>
+	  <td><button type="button" class="btn btn-info" ng-click="cmd('S')"><h1>&#8659;</h1></button></td>
+	  <td><button type="button" class="btn btn-info" ng-click="cmd('SO')"><h1>&#8664;</h1></button></td>
+	</tr>
+      </tbody
+    </table>
+  </div>
+</body>
+</html>

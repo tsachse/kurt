@@ -7,7 +7,8 @@ const port = 5878;
 
 app.use(morgan('common'));
 app.use("/",express.static(__dirname + '/public'));
-app.use('/api/kurt/:cmd', function(req, res) {
+
+app.use('/api/rc1/:cmd', function(req, res) {
   console.log(req.params);
   res.status(200).json('OK');
 });
