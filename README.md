@@ -8,6 +8,7 @@
 - http://www.retas.de/thomas/raspberrypi/pibot-b/
 - http://thefloppydisk.wordpress.com/2013/06/06/raspberry-pi-gpio-inputoutput-in-javascript/
 - http://thejackalofjavascript.com/raspberry-pi-node-js-led-emit-morse-code/
+- http://blog.fxndev.com/raspberry-pi-and-led-fun/
 
 ### L298N Doppelte H-Brücke Schrittmotor-Treiber Steuerungsplatinemodul
 
