@@ -13,6 +13,11 @@ app.use('/api/rc1/:cmd', function(req, res) {
   res.status(200).json('OK');
 });
 
+app.use('/api/rc2/:mode/:cmd', function(req, res) {
+  console.log(req.params);
+  res.status(200).json('OK');
+});
+
 app.listen(port,host,function() {
   console.log("ready captain at port", port);
 });
