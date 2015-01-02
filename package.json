@@ -21,6 +21,7 @@
     "johnny-five": "^0.8.36",
     "morgan": "^1.5.0",
     "onoff": "^0.3.2",
-    "pi-blaster.js": "0.0.2"
+    "pi-blaster.js": "0.0.2",
+    "sinon": "^1.12.2"
   }
 }

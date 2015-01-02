@@ -65,6 +65,9 @@ The following pins are in use if any DC/steppers are used Digital pin 4, 7, 8 an
     }
    );
 ```
+#### Und wie testen?
+
+http://www.roborooter.com/post/1466/testing-johnny-five/
 
 
 ## Links
