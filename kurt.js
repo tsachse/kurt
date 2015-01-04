@@ -24,12 +24,12 @@ app.use('/api/rc1/:cmd', function(req, res) {
   switch(req.params.cmd) {
     case 'N'   : mc.north(); break;
     case 'NW'  : mc.north_west(); break;
-    case 'NE'  : mc.north_east(); break;
+    case 'NO'  : mc.north_east(); break;
     case 'W'   : mc.west(); break;
-    case 'E'   : mc.east(); break;
+    case 'O'   : mc.east(); break;
     case 'S'   : mc.south(); break;
     case 'SW'  : mc.south_west(); break;
-    case 'SE'  : mc.south_east(); break;
+    case 'SO'  : mc.south_east(); break;
     case 'STOP': mc.stop(); break;
   }
   res.status(200).json('OK');
