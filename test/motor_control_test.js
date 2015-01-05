@@ -20,9 +20,8 @@ exports["Motor Control"] = {
     //this.board = newBoard();
     this.board = MockBoard.newBoard();
     this.spy = sinon.spy(this.board.io, "analogWrite");
-    this.mc = new MotorControl(this.board);
     // Motor 1
-    this.mc.left = new five.Motor({
+    this.left = new five.Motor({
          board: this.board,
          pins: { pwm: MOTOR_LEFT },
          register: { data: 8, clock: 4, latch: 12 },
@@ -31,13 +30,14 @@ exports["Motor Control"] = {
     );
    
     // Motor 2
-    this.mc.right = new five.Motor({
+    this.right = new five.Motor({
         board: this.board,
 	pins: { pwm: MOTOR_RIGHT },
 	register: { data: 8, clock: 4, latch: 12 },
 	bits: { a: 1, b: 4 }
       }
     );
+    this.mc = new MotorControl(this.left, this.right);
     done();
   },
 
