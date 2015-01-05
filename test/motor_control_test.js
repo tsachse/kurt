@@ -111,8 +111,8 @@ exports["Motor Control"] = {
     test.expect(2);
 
     this.mc.south();
-    test.ok(this.spy.calledWith(MOTOR_LEFT,HALF_SPEED));
-    test.ok(this.spy.calledWith(MOTOR_RIGHT,HALF_SPEED));
+    test.ok(this.spy.calledWith(MOTOR_LEFT,FULL_SPEED));
+    test.ok(this.spy.calledWith(MOTOR_RIGHT,FULL_SPEED));
     this.spy.reset();
 
     test.done();
@@ -122,8 +122,8 @@ exports["Motor Control"] = {
     test.expect(2);
 
     this.mc.south_west();
-    test.ok(this.spy.calledWith(MOTOR_LEFT,QUARTER_SPEED));
-    test.ok(this.spy.calledWith(MOTOR_RIGHT,HALF_SPEED));
+    test.ok(this.spy.calledWith(MOTOR_LEFT,HALF_SPEED));
+    test.ok(this.spy.calledWith(MOTOR_RIGHT,FULL_SPEED));
     this.spy.reset();
 
     test.done();
@@ -133,8 +133,8 @@ exports["Motor Control"] = {
     test.expect(2);
 
     this.mc.south_east();
-    test.ok(this.spy.calledWith(MOTOR_LEFT,HALF_SPEED));
-    test.ok(this.spy.calledWith(MOTOR_RIGHT,QUARTER_SPEED));
+    test.ok(this.spy.calledWith(MOTOR_LEFT,FULL_SPEED));
+    test.ok(this.spy.calledWith(MOTOR_RIGHT,HALF_SPEED));
     this.spy.reset();
 
     test.done();
