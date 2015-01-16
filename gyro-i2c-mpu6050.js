@@ -1,7 +1,7 @@
 var five = require("johnny-five");
-var i2c-io = require("lib/i2c-io");
+var i2c_io = require("./lib/i2c-io");
 var board = new five.Board({
-  io: new i2c-io()
+  io: new i2c_io()
 });
 
 board.on("ready", function() {
