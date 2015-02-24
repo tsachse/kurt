@@ -40,9 +40,10 @@ angular.module('rc3', ['ngResource'])
 
     if (window.DeviceOrientationEvent) {
       window.addEventListener('deviceorientation', function(eventData) {
-	$scope.yaw = eventData.alpha;
-	$scope.pitch = eventData.beta;
-	$scope.roll = eventData.gamma;
+	$scope.yaw = Math.round(eventData.alpha);
+	$scope.pitch = Math.round(eventData.beta);
+	$scope.roll = Math.round(eventData.gamma);
+	$scope.$apply();
 
       });
     }
