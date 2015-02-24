@@ -9,11 +9,11 @@ const MOTOR_LEFT = 11;
 const MOTOR_RIGHT = 3;
 
 // ein Board zu testen
-// const MockBoard = require("./lib/mock-board");
-// var board = MockBoard.newBoard();
+const MockBoard = require("./lib/mock-board");
+var board = MockBoard.newBoard();
 
 // das reale Board
-var board = new five.Board({ port: "/dev/ttyAMA0" });
+//var board = new five.Board({ port: "/dev/ttyAMA0" });
 
 var mc = undefined;
 
